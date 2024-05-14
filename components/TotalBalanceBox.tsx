@@ -1,15 +1,15 @@
-// imp1ort { formatAmount } from '@/lib/utils'
-// import CountUp from 'react-countup';
+
 'use client'
+ import CountUp from 'react-countup';
 import React from 'react'
-// import AnimatedCounter from './AnimatedCounter';
+import AnimatedCounter from './AnimatedCounter';
 import { formatAmount } from '@/lib/utils';
-// import DoughnutChart from './DoughnutChart';
+import DoughnutChart from './DoughnutChart';
 
 const TotalBalanceBox = ({accounts=[],totalBanks,totalCurrentBalance}:TotlaBalanceBoxProps) => {
   return (
      <section className="total-balance">
-        {/* <div className="total-balance-chart">
+        <div className="total-balance-chart">
             <DoughnutChart accounts={accounts}></DoughnutChart>
          </div>
 
@@ -24,7 +24,7 @@ const TotalBalanceBox = ({accounts=[],totalBanks,totalCurrentBalance}:TotlaBalan
                      
                     </div> 
             </div>
-        </div> */}
+        </div>
      </section>
   )
 }
